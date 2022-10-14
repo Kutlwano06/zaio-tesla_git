@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500px
+  
+}
+
+p {
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  padding: 6px 24px 6px 24px;
+}
+.banner-wrap {
+  background-image: url("./assets/M3-Homepage-Desktop-LHD.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+  padding: 0 32px;
+  cursor: pointer;
+}
+.nav-item {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.nav-item:hover {
+  border-bottom-left-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+  cursor: pointer;
+}
+
+.logo {
+  height: 24px;
+  width: 120px;
+}
+
+main {
+  text-align: center;
+  height: calc(100vh - 56px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+  }
+
+.title-section {
+  margin-top: calc(99px - 56px);
+
+}
+.title-section touchless-delivery{
+  color: black;
+}
+.actions-area {
+  margin-bottom: 100px;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  width: 264px;
+  height: 40px;
+  padding: 7px 27px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  margin-right: 80px;
+  
+}
+.btn-dark {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.btn-light {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
